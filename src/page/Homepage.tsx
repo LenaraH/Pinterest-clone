@@ -1,0 +1,136 @@
+import { ReactElement } from "react";
+import { MasonaryLayout } from "../components/MasonryLayout";
+import { NavBar } from "../components/navbar/Navbar";
+import { Sidebar } from "../components/navbar/Sidebar";
+import { SideBarLayout } from "../components/SidebarLayout/SidebarLayout";
+import { QuestionMark } from "../components/questionmark/QuestionMark";
+
+export function Homepage(): ReactElement {
+  return (
+    <div>
+      <SideBarLayout>
+        <Sidebar />
+        <div>
+          <NavBar />
+          <MasonaryLayout
+            items={[
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/9e/0c/1f/9e0c1f938e6eb2f2f6a7641481b95a2b.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/67/66/fe/6766fe059cab571b65e4be96f3c1f52a.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/cb/ce/6c/cbce6c48e70dff32525f53d0f680ce88.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/4f/c6/b1/4fc6b104a3f4460918d46b5581f571aa.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/2f/dc/eb/2fdcebdf9ee61e65fc2f5f8cfad0c776.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/28/0f/2a/280f2ad274830304d9cbce1aca5c231e.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/43/6c/2f/436c2f8057d77a9012ebc034cc2cd8cb.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/75/75/b1/7575b1b21970ef15666b313555d7daab.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/5b/d4/7b/5bd47b0b08a0544aa6e19b6507b61dd8.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/61/3a/87/613a8727b20381524c16fb0074eb017a.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/22/ec/4a/22ec4ad182ae90e6ad47c64a37d7a688.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/originals/d8/a2/fa/d8a2fa739090c03fe3d38514ec5ec0bf.gif",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/736x/85/d5/62/85d5627ba1c94532cf8318bf1abe21c0.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/e7/eb/ef/e7ebef7f1caddb7ce8670a1a59efc5e4.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/90/35/50/90355058484a87e13d439b6c4bdafc9b.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/control/474x/15/52/0e/15520ea319e4166f1cdc3424cbe0bf13.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/e9/e0/f6/e9e0f6b8243ce02ef853cd381837e7cb.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/f3/85/10/f38510a8d8f8e49246ba2b226e503c37.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/control/564x/d1/bc/fe/d1bcfe6046b7089173556e848aa687fa.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/08/04/cb/0804cba305b229680999690e0004de6e.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/00/0a/37/000a37aa1c57776143c26e8c5e0cfd6a.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/13/39/51/1339517252d9ec074496315cf2336b93.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/eb/cd/7e/ebcd7e009ae6c5ae91074d4ac7eef9e4.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/f6/0a/76/f60a764bf0cf429494bfeb1346e6963e.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/09/48/fa/0948fac9fc51bb9fe3b576f3b1ca8c33.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/236x/8d/f2/33/8df23367ea4e73ec3767ee84bf439c50.jpg",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/originals/9a/59/f6/9a59f607a03342a436dccfa048d9a8e5.gif",
+              },
+              {
+                imageUrl:
+                  "https://i.pinimg.com/474x/1e/b7/1d/1eb71d8c5eb941ec803f164cae4b61f1.jpg",
+              },
+            ]}
+          />
+        </div>
+      </SideBarLayout>
+      <QuestionMark />
+    </div>
+  );
+}
