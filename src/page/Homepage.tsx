@@ -16,10 +16,6 @@ export function Homepage(): ReactElement {
             items={[
               {
                 imageUrl:
-                  "https://i.pinimg.com/236x/9e/0c/1f/9e0c1f938e6eb2f2f6a7641481b95a2b.jpg",
-              },
-              {
-                imageUrl:
                   "https://i.pinimg.com/236x/67/66/fe/6766fe059cab571b65e4be96f3c1f52a.jpg",
               },
               {
